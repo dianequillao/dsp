@@ -20,7 +20,25 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* show current working directory path
+    pwd
+* creating a directory
+    mkdir
+* deleting a directory
+* creating a file using `touch` command
+    touch
+* deleting a file
+* renaming a file
+* listing hidden files
+* copying a file from one directory to another
+    mv
+* organize a computer's files and folders into a tree structure 
+    filesystem
+* change directory
+    cd
+* move up one directory
+    cd ..
 
 ---
 
@@ -35,7 +53,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  #lists the files and folders of the directory you are in
+`ls -a`  #lists hidden and unhidden files
+`ls -l`  #lists all contents of a directory in long format/as a table
+`ls -lh`  
+`ls -lah`  
+`ls -t`  #order files and directories by the time they were last modified.
+`ls -Glp`
 
 ---
 
