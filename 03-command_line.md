@@ -20,7 +20,28 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* show current working directory path
+    pwd
+* creating a directory
+    mkdir
+* deleting a directory
+    rm -r mydir
+    rm -rf mydir to delete without a prompt
+* creating a file using `touch` command
+    touch
+* deleting a file
+    rm
+* renaming a file
+* listing hidden files
+* copying a file from one directory to another
+    mv "old location" "new location"
+* organize a computer's files and folders into a tree structure 
+    filesystem
+* change directory
+    cd
+* move up one directory
+    cd ..
 
 ---
 
@@ -35,7 +56,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  #lists the files and folders of the directory you are in
+`ls -a`  #lists hidden and unhidden files
+`ls -l`  #lists all contents of a directory in long format/as a table
+`ls -lh`  #lists long format with readable file size
+`ls -lah`  #lists hidden and unhidden files in long listing and readable format 
+`ls -t`  #order files and directories by the time they were last modified.
+`ls -Glp` #lists contents in a long listing (not group names), in a long listing format, and adds / to end of directories
 
 ---
 
@@ -43,7 +70,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -x` #Displays files as rows across the screen.
+`ls -1` #Displays each entry on a line.
+`ls -q` #Displays all nonprinting characters as ?
+`ls -d` #Displays only directories
+`ls -m` #Displays the names as a comma-separated list
 
 ---
 
@@ -51,7 +82,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > reads data from standard input (stdin) and executes the command (supplied to it as argument) one or more times based on the input read.
+
+
 
  
 
